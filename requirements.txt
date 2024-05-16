@@ -1,0 +1,6 @@
+pyyaml
+scipy
+pandas
+ipdb
+thop
+timm==0.6.5
