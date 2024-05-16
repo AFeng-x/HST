@@ -84,7 +84,7 @@ If this project is helpful for you, you can cite our paper:
 ```
 @article{lin2023hierarchical,
   title={Hierarchical side-tuning for vision transformers},
-  author={Lin, Weifeng and Wu, Ziheng and Chen, Jiayu and Yang, Wentao and Huang, Mingxin and Huang, Jun and Jin, Lianwen},
+  author={Lin, Weifeng and Wu, Ziheng and Yang, Wentao and Huang, Mingxin and Huang, Jun and Jin, Lianwen},
   journal={arXiv preprint arXiv:2310.05393},
   year={2023}
 }
