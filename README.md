@@ -80,7 +80,7 @@ bash train_scripts/vit/cifar_100/train_hsn_img21k.sh
 
 
 ### Citation
-If this project is helpful for you, you can cite our paper:
+If you find this project useful for your research and applications, please kindly cite our paper:
 ```
 @article{lin2023hierarchical,
   title={Hierarchical side-tuning for vision transformers},
