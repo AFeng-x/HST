@@ -28,6 +28,8 @@ conda create -n HST python=3.8 -y
 conda activate HST
 ```
 
+- Install PyTorch:
+
 ```bash
 pip3 install torch==1.10.1 torchvision==0.11.2 torchaudio --index-url https://download.pytorch.org/whl/cu113
 ```
@@ -48,7 +50,9 @@ You can follow [VPT](https://github.com/KMnP/vpt) to download them.
 - VTAB-1K
   
 Original download link: [vtab dataset](https://github.com/google-research/task_adaptation/tree/master/task_adaptation/data).
+
 Following [SSF](https://github.com/dongzelian/SSF) to download the extracted vtab-1k dataset for convenience.
+
 The license is in [vtab dataset](https://github.com/google-research/task_adaptation/tree/master/task_adaptation/data).
 
 
@@ -66,7 +70,7 @@ wget https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
 
 ### Fine-tuning a pre-trained model via HST
 
-To fine-tune a pre-trained ViT model via `HST`, pleasse refer to the [Scripts](train_scripts). 
+To fine-tune a pre-trained ViT model via `HST`, pleasse refer to the [scripts](train_scripts). 
 Examples:
 
 ```bash
