@@ -144,12 +144,12 @@ class M_C_Attention(nn.Module):
         self.proj_drop = nn.Dropout(proj_drop)
 
 
-    def forward(self, x, x_vit, H, W):
+    def forward(self, x, x_metaR, H, W):
         B, N, C = x.shape
-        _, N_kv,_ = x_vit.shape
+        _, N_kv,_ = x_metaR.shape
         q = self.q(x).reshape(B, N, self.num_heads, C // self.num_heads).permute(0, 2, 1, 3)
-        k = self.k(x_vit).reshape(B, N_kv, self.num_heads, C // self.num_heads).permute(0, 2, 1, 3)
-        v = self.v(x_vit).reshape(B, N_kv, self.num_heads, C // self.num_heads).permute(0, 2, 1, 3)
+        k = self.k(x_metaR).reshape(B, N_kv, self.num_heads, C // self.num_heads).permute(0, 2, 1, 3)
+        v = self.v(x_metaR).reshape(B, N_kv, self.num_heads, C // self.num_heads).permute(0, 2, 1, 3)
 
         attn = (q @ k.transpose(-2, -1)) * self.scale
         attn = attn.softmax(dim=-1)
