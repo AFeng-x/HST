@@ -66,6 +66,7 @@ wget https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
 
 - For pre-trained ViT-B/16 or ViT-L/16 models on ImageNet-21K, the model weights will be automatically downloaded. You can also manually download them from [ViT](https://github.com/google-research/vision_transformer).
 
+- For pre-trained ViT-B/16 on MAE, please download from [MAE](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth)
 
 
 ### Fine-tuning a pre-trained model via HST
