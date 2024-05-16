@@ -77,6 +77,9 @@ Examples:
 bash train_scripts/vit/cifar_100/train_hsn_img21k.sh
 ```
 
+### For Dense Prediction Tasks
+
+You can directly transfer our [model](models/vit_hsn.py) in [mmdetection](https://github.com/open-mmlab/mmdetection) and [mmsegmentation](https://github.com/open-mmlab/mmsegmentation).
 
 
 ### Citation
