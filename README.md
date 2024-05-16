@@ -2,11 +2,11 @@
 
 This repo is the official implementation of our paper "Hierarchical Side-Tuning for Vision Transformers" ([arXiv](https://arxiv.org/abs/2310.05393)). 
 
-Weifeng Lin, Ziheng Wu, Wentao Yang, Mingxin Huang, Jun Huang and Lianwen Jin
+**Weifeng Lin**, **Ziheng Wu**, **Wentao Yang**, **Mingxin Huang**, **Jun Huang** and **Lianwen Jin**
 
 
 <div align="center">
-    <img src="assets/hst_arch.jpg" style="width: 85%; height: auto;" />
+    <img src="assets/hst_arch.jpg" style="width: 95%; height: auto;" />
 </div>
 
 
